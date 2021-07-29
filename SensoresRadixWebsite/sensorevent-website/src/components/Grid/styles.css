@@ -1,0 +1,50 @@
+
+  table {
+    display: block;    
+    height: 350px;
+    overflow-y: auto;
+    background: #F3F5F6;
+    max-width: 700px;      }
+  
+    td{
+        border:1px solid #000;
+    }
+    
+    tr td:last-child{
+        width:1%;
+        white-space:nowrap;
+    }
+
+  .event-list {
+    max-width: 700px;    
+    background:#F3F5F6;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-left:0
+   }
+.event-list  p{
+
+    font-size: 16px;
+    color: #999;
+    margin-top:5px;
+    line-height: 5px;
+
+}
+.status-circle {
+    height: 12px;
+    width: 12px;    
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;       
+    line-height: 5px;
+}
+.ok {
+
+    background-color: green;
+}
+.n-ok {
+
+    background-color: red;
+}

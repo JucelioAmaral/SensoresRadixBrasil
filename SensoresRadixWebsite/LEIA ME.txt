@@ -1,0 +1,8 @@
+PARA RODAR O FRONT:
+
+1 - Visual Code e node.js (mais recente) instalados;
+2 - Abrir o cmd pelo explorar onde estão os arquivas do front;
+3 - Inserir o comando: npm install 
+4 - Executar o front: npm start 
+    OBS: Pelo terminal (powerShell) dentro do Visual Code, o comando acima não funciona.
+	

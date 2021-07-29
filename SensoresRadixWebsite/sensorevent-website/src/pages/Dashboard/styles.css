@@ -1,0 +1,14 @@
+.dashboard-content{
+    max-width: 1500px;
+    margin:20px auto 0;
+    padding: 0 20px;    
+}
+
+.h5-header{
+    font-size: 25px;    
+    margin-top:5px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

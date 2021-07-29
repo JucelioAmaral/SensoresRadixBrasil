@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensoresRadixBrasil", "SensoresRadixBrasil\SensoresRadixBrasil.csproj", "{F54299AB-1DEE-490A-8173-A67C08AA8F85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6A19C94-3E37-476A-9703-D56953461D82} = {B6A19C94-3E37-476A-9703-D56953461D82}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensores.Radix.Application", "Sensores.Radix.Application\Sensores.Radix.Application.csproj", "{CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788} = {3E25AF0D-A992-4962-A2BC-80E26D45C788}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensores.Radix.Domain", "Sensores.Radix.Domain\Sensores.Radix.Domain.csproj", "{3E25AF0D-A992-4962-A2BC-80E26D45C788}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652} = {1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensores.Radix.Domain.Core", "Sensores.Radix.Domain.Core\Sensores.Radix.Domain.Core.csproj", "{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensores.Radix.Infra.CrossCutting.IoC", "Sensores.Radix.Infra.CrossCutting.IoC\Sensores.Radix.Infra.CrossCutting.IoC.csproj", "{B6A19C94-3E37-476A-9703-D56953461D82}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788} = {3E25AF0D-A992-4962-A2BC-80E26D45C788}
+		{CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF} = {CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF}
+		{6D5657B1-B185-4F81-A43E-EC33A09AD001} = {6D5657B1-B185-4F81-A43E-EC33A09AD001}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensores.Radix.Infra.Data", "Sensores.Radix.Infra.Data\Sensores.Radix.Infra.Data.csproj", "{6D5657B1-B185-4F81-A43E-EC33A09AD001}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788} = {3E25AF0D-A992-4962-A2BC-80E26D45C788}
+		{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652} = {1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F54299AB-1DEE-490A-8173-A67C08AA8F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54299AB-1DEE-490A-8173-A67C08AA8F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54299AB-1DEE-490A-8173-A67C08AA8F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54299AB-1DEE-490A-8173-A67C08AA8F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3B59AF-122D-4AA4-8739-D8FFAFAFF7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E25AF0D-A992-4962-A2BC-80E26D45C788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7CFF5D-D2CB-4D3F-B73A-0DDDBEDDD652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A19C94-3E37-476A-9703-D56953461D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A19C94-3E37-476A-9703-D56953461D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A19C94-3E37-476A-9703-D56953461D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A19C94-3E37-476A-9703-D56953461D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5657B1-B185-4F81-A43E-EC33A09AD001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5657B1-B185-4F81-A43E-EC33A09AD001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5657B1-B185-4F81-A43E-EC33A09AD001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5657B1-B185-4F81-A43E-EC33A09AD001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7D9B677-3DF2-4D69-B136-7ED65FBF716D}
+	EndGlobalSection
+EndGlobal
