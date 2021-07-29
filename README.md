@@ -1,5 +1,5 @@
 
- # SensoresRadixBrasil
+ # Sistema de sensores do Brasil
  
 ## Explicação sobre a solução
 
@@ -21,7 +21,7 @@ Descrição:
  * Valor é o dado coletado de um determinado sensor (podendo ser numérico ou string).
 
 
-# Sistema de sensores do Brasil
+# Sobre o Sistema
 
 Api feito em .Net Core 3.1 usando Entity framework para persistencia, acesso, consultas e relatórios ao banco de dados SQLServer, como SGBD.
 
@@ -50,9 +50,9 @@ git clone https://github.com/JucelioAmaral/SensoresRadixBrasil.git
 
 ## Como executar o app (Front end)?
 
-1 - Node.js (mais recente) instalados;
-2 - Abrir o cmd pelo explorar onde estão os arquivas do front;
-3 - Inserir o comando: npm install; 
-4 - Executar o front: npm start; 
+1. Node.js (mais recente) instalados;
+2. Abrir o cmd pelo explorar onde estão os arquivas do front;
+3. Inserir o comando: npm install; 
+4. Executar o front: npm start; 
     OBS: Pelo terminal (powerShell) dentro do Visual Code, o comando acima não funciona.
 	
